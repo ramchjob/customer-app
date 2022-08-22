@@ -1,0 +1,9 @@
+.saveable {
+   color: green;
+}
+.isUnchanged {
+   color: red;
+}
+.special {
+   color: blue;
+}

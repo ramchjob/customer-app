@@ -3,11 +3,13 @@ import { CommonModule } from '@angular/common';
 
 import { CustomersRoutingModule } from './customers-routing.module';
 import { CustomersComponent } from './components/customers.component';
+import { HighlightDirective } from '../common/directives/highlight.directive';
 
 
 @NgModule({
   declarations: [
-    CustomersComponent
+    CustomersComponent,
+    HighlightDirective
   ],
   imports: [
     CommonModule,
